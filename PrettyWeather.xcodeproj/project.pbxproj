@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4AEE101CCC492900E9625B /* PrettyWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4AEE0F1CCC492900E9625B /* PrettyWeatherViewController.swift */; };
+		BE8F5F571CCC56ED0077BD56 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F5F561CCC56ED0077BD56 /* CurrentWeatherView.swift */; };
+		BE8F5F591CCC62820077BD56 /* WeatherHourlyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F5F581CCC62820077BD56 /* WeatherHourlyForecastView.swift */; };
+		BE8F5F5B1CCC629C0077BD56 /* WeatherDaysForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F5F5A1CCC629C0077BD56 /* WeatherDaysForecastView.swift */; };
+		BE8F5F5D1CCCB73B0077BD56 /* WeatherHourForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F5F5C1CCCB73B0077BD56 /* WeatherHourForecastView.swift */; };
+		BE8F5F5F1CCCBCC30077BD56 /* WeatherDayForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F5F5E1CCCBCC30077BD56 /* WeatherDayForecastView.swift */; };
 		BEAD02EC1CCC37E500123256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAD02EB1CCC37E500123256 /* AppDelegate.swift */; };
 		BEAD02EE1CCC37E500123256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAD02ED1CCC37E500123256 /* ViewController.swift */; };
 		BEAD02F11CCC37E500123256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAD02EF1CCC37E500123256 /* Main.storyboard */; };
 		BEAD02F31CCC37E500123256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAD02F21CCC37E500123256 /* Assets.xcassets */; };
 		BEAD02F61CCC37E500123256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAD02F41CCC37E500123256 /* LaunchScreen.storyboard */; };
+		CD97205AC03503BC2ECBE0D7 /* Pods_PrettyWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C13FB214D64E060B227BD14 /* Pods_PrettyWeather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C13FB214D64E060B227BD14 /* Pods_PrettyWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE0C4A4507B66CD1FED3A09 /* Pods-PrettyWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyWeather/Pods-PrettyWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		AFDDDF443DD4D2C3FD4E3574 /* Pods-PrettyWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyWeather/Pods-PrettyWeather.release.xcconfig"; sourceTree = "<group>"; };
+		BE4AEE0F1CCC492900E9625B /* PrettyWeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyWeatherViewController.swift; sourceTree = "<group>"; };
+		BE8F5F561CCC56ED0077BD56 /* CurrentWeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		BE8F5F581CCC62820077BD56 /* WeatherHourlyForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherHourlyForecastView.swift; sourceTree = "<group>"; };
+		BE8F5F5A1CCC629C0077BD56 /* WeatherDaysForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDaysForecastView.swift; sourceTree = "<group>"; };
+		BE8F5F5C1CCCB73B0077BD56 /* WeatherHourForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherHourForecastView.swift; sourceTree = "<group>"; };
+		BE8F5F5E1CCCBCC30077BD56 /* WeatherDayForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDayForecastView.swift; sourceTree = "<group>"; };
 		BEAD02E81CCC37E500123256 /* PrettyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAD02EB1CCC37E500123256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEAD02ED1CCC37E500123256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +45,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD97205AC03503BC2ECBE0D7 /* Pods_PrettyWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1468D3BEE500BD0775CF9F91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FE0C4A4507B66CD1FED3A09 /* Pods-PrettyWeather.debug.xcconfig */,
+				AFDDDF443DD4D2C3FD4E3574 /* Pods-PrettyWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14E69E44EA37A09B0E031968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C13FB214D64E060B227BD14 /* Pods_PrettyWeather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE4AEE0E1CCC489D00E9625B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE4AEE0F1CCC492900E9625B /* PrettyWeatherViewController.swift */,
+				BE8F5F561CCC56ED0077BD56 /* CurrentWeatherView.swift */,
+				BE8F5F581CCC62820077BD56 /* WeatherHourlyForecastView.swift */,
+				BE8F5F5C1CCCB73B0077BD56 /* WeatherHourForecastView.swift */,
+				BE8F5F5A1CCC629C0077BD56 /* WeatherDaysForecastView.swift */,
+				BE8F5F5E1CCCBCC30077BD56 /* WeatherDayForecastView.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		BEAD02DF1CCC37E500123256 = {
 			isa = PBXGroup;
 			children = (
 				BEAD02EA1CCC37E500123256 /* PrettyWeather */,
 				BEAD02E91CCC37E500123256 /* Products */,
+				1468D3BEE500BD0775CF9F91 /* Pods */,
+				14E69E44EA37A09B0E031968 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +103,7 @@
 		BEAD02EA1CCC37E500123256 /* PrettyWeather */ = {
 			isa = PBXGroup;
 			children = (
+				BE4AEE0E1CCC489D00E9625B /* ViewControllers */,
 				BEAD02EB1CCC37E500123256 /* AppDelegate.swift */,
 				BEAD02ED1CCC37E500123256 /* ViewController.swift */,
 				BEAD02EF1CCC37E500123256 /* Main.storyboard */,
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEAD02FA1CCC37E500123256 /* Build configuration list for PBXNativeTarget "PrettyWeather" */;
 			buildPhases = (
+				CED289BE4FC63539BFB86248 /* Check Pods Manifest.lock */,
 				BEAD02E41CCC37E500123256 /* Sources */,
 				BEAD02E51CCC37E500123256 /* Frameworks */,
 				BEAD02E61CCC37E500123256 /* Resources */,
+				6CA7BC4BB7F4EDE13B47D829 /* Embed Pods Frameworks */,
+				84132CFE40AB8B555771E0AE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +183,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CA7BC4BB7F4EDE13B47D829 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrettyWeather/Pods-PrettyWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84132CFE40AB8B555771E0AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrettyWeather/Pods-PrettyWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED289BE4FC63539BFB86248 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEAD02E41CCC37E500123256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8F5F591CCC62820077BD56 /* WeatherHourlyForecastView.swift in Sources */,
+				BE8F5F5B1CCC629C0077BD56 /* WeatherDaysForecastView.swift in Sources */,
 				BEAD02EE1CCC37E500123256 /* ViewController.swift in Sources */,
+				BE8F5F571CCC56ED0077BD56 /* CurrentWeatherView.swift in Sources */,
 				BEAD02EC1CCC37E500123256 /* AppDelegate.swift in Sources */,
+				BE4AEE101CCC492900E9625B /* PrettyWeatherViewController.swift in Sources */,
+				BE8F5F5D1CCCB73B0077BD56 /* WeatherHourForecastView.swift in Sources */,
+				BE8F5F5F1CCCBCC30077BD56 /* WeatherDayForecastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +356,7 @@
 		};
 		BEAD02FB1CCC37E500123256 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE0C4A4507B66CD1FED3A09 /* Pods-PrettyWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PrettyWeather/Info.plist;
@@ -260,6 +368,7 @@
 		};
 		BEAD02FC1CCC37E500123256 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDDDF443DD4D2C3FD4E3574 /* Pods-PrettyWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PrettyWeather/Info.plist;
@@ -288,6 +397,7 @@
 				BEAD02FC1CCC37E500123256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
